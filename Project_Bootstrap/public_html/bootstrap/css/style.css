@@ -1,0 +1,104 @@
+body
+{
+background-color:#f2f2f2;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-weight:700;
+	letter-spacing:1px;
+	padding:5px;
+}
+.img-full
+{
+	min-width:100%;
+}
+.well
+{
+	background-color:white;
+	padding:5px;
+	margin:15px;
+	box-shadow:2px 2px 5px #b6b6b6;
+	border-radius:0px;
+}
+.container
+{
+	letter-spacing:1px;
+	padding:10px;
+}
+span
+{
+	margin:5px;
+}
+p{
+	letter-spacing:1px;
+	font-size:1.25em;
+	margin-left:5px;
+}
+hr{
+	
+	border-color:#d6d6d6;
+	width:90%;
+}
+.glyphicon{color:#006688;}
+.large{
+	font-size:2.25em;
+	letter-spacing:1px;
+	margin-left:5px;
+}
+.progress{
+	background-color:#f2f2f2;
+	border-radius:20px;
+}
+.progress-bar{
+	background-color:#006688;
+	border-radius:20px;
+}
+.label{
+	background:#006688;
+}
+footer{
+	background-color:#006688;
+}
+footer p{
+	font-size:1.0em;
+	color:#fff;
+}
+footer .container{
+	padding:30px;
+}
+.cal{
+	color:#006688;
+}
+.thumbnail{
+	border:none;
+	position:relative;
+}
+.post-content{
+	top:80%;
+	left:0;
+	position:absolute;
+}
+.thumbnail h2{
+	color:#fff;
+}
+.fa{
+	color:#fff;
+}
+i{
+	padding:5px;
+}
+.fa-facebook-official:hover{
+	font-size:2.0em;
+	background:#fff;
+	color:#3b5998;
+}
+.fa-whatsapp:hover{
+	font-size:2.0em;
+	background:#34af23;
+	color:#fff;
+}
+.fa-skype:hover{
+font-size:2.0em;
+background:#fff;
+color:#12A5F4;
+}

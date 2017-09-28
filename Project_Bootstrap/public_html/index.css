@@ -1,0 +1,113 @@
+nav{
+    letter-spacing: 1px;
+}
+.glyphicon{
+    margin-right: 5px;
+}
+#banner_image{
+    margin-top: 25px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color:#f8f8f8;
+    background: url(img/2.jpg) no-repeat center center;
+   background-size: 100% 100%;
+    -webkit-transform: scale(1,1);
+}
+#banner_content{
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 660px;
+    -webkit-transform: scale(1,1);
+}
+@media(min-width:732px){
+    #banner_content{
+        margin-left: 3%;
+    }
+}
+@media(min-width:1024px){
+    #banner_content{
+        margin-left: 15%;
+    }
+}
+@media(min-width:1200px){
+    #banner_content{
+        margin-left: 20%;
+    }
+}
+@media(max-width:732px){
+    #banner_content{
+        margin-bottom: 0%;
+        -webkit-transform: scale(0.8,0.6);
+        max-width: 330px;
+    }
+   #banner_image{
+        -webkit-background-size: 100% 100%;
+    }
+    .navbar-collapse>ul>li>a:hover{
+    background-color: #808080;
+    color: #fff;
+    }
+    .navbar-inverse .navbar-header .navbar-toggle{border: 1px solid #808080;
+    background-color: #808080;
+    }
+    .navbar-inverse .navbar-header .navbar-toggle:hover .icon-bar{
+    border: 1px solid #808080;
+    }
+    .navbar-inverse .navbar-header .navbar-toggle:hover{
+     background-color: #fff;
+    color: #808080;
+    border: 1px solid #808080;  
+    }
+}
+footer{
+    padding: 10px 0px;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+.panel{
+    margin-top: 100px;
+}
+.panel-footer{
+    margin-top: 40px;
+}
+.sign-adjust{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.jumbotron{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #b3b3b3;
+}
+#cart-adjust{
+    margin-top: 100px;
+}
+#settings{
+    margin-top: 100px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #808080;
+    color: #fff;
+}
+.thumbnail>img:hover{
+    -webkit-transform: scale(1.1);
+}
+.navbar-inverse{
+    background-color: #fff;
+    box-shadow: 2px 0px 20px #b6b6b6;
+    color: #000;
+    border: none;
+}
+.navbar{
+    color: #808080;
+}
+.navbar .navbar-header .navbar-brand:hover{
+    color: #000;
+}
